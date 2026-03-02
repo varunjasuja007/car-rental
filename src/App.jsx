@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero/Hero";
 
 const App = () => {
   // Dark Mode Feature 
@@ -26,7 +27,9 @@ const App = () => {
 
   return <div>
     <Navbar theme={theme} setTheme={setTheme} />
+    <Hero />
   </div>
+
 };
 
 
