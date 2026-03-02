@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        dark: "#010101",   // 👈 yaha define kiya
+        primary: "#ffc727",
+        dark: "#111111",   // 👈 yaha define kiya
+
       },
+
     },
   },
   plugins: [],
