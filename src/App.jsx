@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero/Hero";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const App = () => {
   // Dark Mode Feature 
@@ -25,12 +27,24 @@ const App = () => {
     }
   }, [theme])
 
-  return <div>
-    <Navbar theme={theme} setTheme={setTheme} />
-    <Hero theme={theme} />
-  </div>
+  // AOS Initialization 
+  React.useEffect(() => {
 
-};
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+    AOS.refresh()
+  }, []);
 
+  return (
+    <div>
+      <Navbar theme={theme} setTheme={setTheme} />
+      <Hero theme={theme} />
+    </div>
+  );
+}
 
 export default App;
