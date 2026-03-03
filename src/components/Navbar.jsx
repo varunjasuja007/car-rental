@@ -27,9 +27,9 @@ const NavLinks = [
 const Navbar = ({ theme, setTheme }) => {
 
     return (
-        <nav className="shadow-md bg:white
+        <nav className="shadow-md bg-white
         dark:bg-dark dark:text-white  duration-300 ">
-            <div className="contsainer">
+            <div className="container mx-auto px-12">
                 <div className="flex justify-between items-center">
                     <div>
                         <h1 className="text-3xl font-bold font-serif">
@@ -42,10 +42,10 @@ const Navbar = ({ theme, setTheme }) => {
                                     <li key={data.id}
                                         className="py-4">
                                         <a className="
-                                          py-3 hover:boarder-b-2
+                                          py-3 hover:border-b-2
                                          hover:text-primary 
-                                         hover:border-primary trasition-colors duration-500 text-lg font-medium"
-                                            href="{data.link}">{data.name}</a>
+                                         hover:border-primary transition-colors duration-500 text-lg font-medium"
+                                            href={data.link}>{data.name}</a>
 
                                     </li>
                                 ))
