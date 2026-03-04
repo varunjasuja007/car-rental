@@ -13,7 +13,7 @@ const Hero = ({ theme }) => {
              sm:grid-cols-2">
                     <div
                         data-aos="zoom-in"
-                        data-aos-duration="1300"
+                        data-aos-duration="1600"
 
                         className="order-1
                     sm:order-2">

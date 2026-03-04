@@ -63,6 +63,7 @@ const Navbar = ({ theme, setTheme }) => {
                                     className="text-2xl" />
                             ) : (
                                 <BiSolidMoon
+
                                     onClick={() => setTheme("dark")}
                                     className="text-2xl" />
                             )
