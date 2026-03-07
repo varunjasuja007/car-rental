@@ -28,7 +28,7 @@ const Navbar = ({ theme, setTheme }) => {
 
     return (
         <nav className="shadow-md bg-white
-        dark:bg-dark dark:text-white  duration-300 ">
+        dark:bg-dark dark:text-white  duration-300 relative z-50">
             <div className="container mx-auto px-12">
                 <div className="flex justify-between items-center">
                     <div>

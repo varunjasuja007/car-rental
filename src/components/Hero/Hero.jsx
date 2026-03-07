@@ -5,9 +5,9 @@ import yellowCarPng from "../../assets/car.png";
 
 const Hero = ({ theme }) => {
     return (
-        <div className="dark:bg-black
+        <div className="bg-white dark:bg-black 
         dark:text-white duration-300 relative z-0">
-            <div className="container mx-auto px-12 min-h-[620px] flex items-center">"
+            <div className="container mx-auto px-12 min-h-[620px] flex items-center">
                 <div className="grid
              place-items-center grid-cols-1
              sm:grid-cols-2">
@@ -19,7 +19,7 @@ const Hero = ({ theme }) => {
                     sm:order-2">
                         <img src={theme === "dark" ?
                             carPng : yellowCarPng} alt=""
-                            className="relative -z-10 max-h-[600px] sm:scale-125
+                            className="relative max-h-[600px] sm:scale-125
                             drop-shadow-[2px_20px_6px_rgba(0,0,0,0.45)]" />
                     </div>
                     <div className="order-2
