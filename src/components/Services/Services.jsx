@@ -1,5 +1,11 @@
 import React from "react"
 
+const skillData = [
+    {
+
+    }
+]
+
 const Services = () => {
     return (
         <div className="py-14 dark:bg-black
@@ -10,11 +16,19 @@ const Services = () => {
                 <h1 className="text-3xl font-semibold
             text-center font-serif sm:text-4xl">
                     Why Choose Us</h1>
+            </div>
+            <div className=" grid grid-cols1 sm:grid-cols2
+             md:grid-cols3 gap-4">
+                <div className="data-aos:fade-up">
 
 
+                </div>
             </div>
 
+
+
         </div>
+
     )
 };
 
