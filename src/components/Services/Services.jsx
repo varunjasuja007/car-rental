@@ -1,9 +1,19 @@
 import React from "react"
 
 const skillData = [
-    {
 
-    }
+    {
+        name: "Best Price",
+        icon: (
+            <FaCameraRetro className="text-5xl
+                text-primary group-hover:text-black
+                duration-300" />
+        ),
+        link: "#",
+        description: "dhwgfhwb cbwhc ejbdh m",
+        aosDelay: "0"
+    },
+
 ]
 
 const Services = () => {
