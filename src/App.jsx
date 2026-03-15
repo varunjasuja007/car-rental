@@ -48,6 +48,7 @@ const App = () => {
       <About />
       <Services />
 
+
     </div>
   );
 }
